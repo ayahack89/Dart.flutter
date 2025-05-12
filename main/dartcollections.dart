@@ -1,6 +1,6 @@
 //Collections
 //(List, Set, Map)
-main() {
+void main() {
 
 //List
 List names = ['Ayanabha', 'Agnik', 'Rounak'];
@@ -19,7 +19,7 @@ for (var e in emp) {
 } 
 
 //Set
-var pro = {'Python', 'Dart','Dart', 'PHP', 'Java'}; //Sets is an unique collection of items.
+var pro = {'Python', 'Dart', 'PHP', 'Java'}; //Sets is an unique collection of items.
 print(pro);
 print('');
 print(pro.runtimeType);
@@ -28,11 +28,24 @@ print(pro.runtimeType);
 var hashMap = {};
 print(hashMap.runtimeType);
 
+print('');
+
 var gifts = {
   'first': 'partridge',
   'second': 'turtledoves',
   'fifth': 'golden rings',
 };
+print(gifts['second']);
+
 print('');
+
+//Map Instance 
+var mapInstance = Map();
+
+mapInstance[1] = 'Ayanabha';
+mapInstance[2] = 'DebDooth';
+mapInstance[3] = 'Corona';
+
+print(mapInstance[2]);
 
 }

@@ -1,6 +1,6 @@
 //Dart core package 
 import 'dart:core';
-main(){
+void main(){
   print("Hello World");
 
   var firstName = "Ayanabha";

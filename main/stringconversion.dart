@@ -1,4 +1,4 @@
-main() {
+void main() {
   var str1 = 'Single quotes works well for string literals.';
   var str2 = "Double quotes works just as well.";
   var str3 = 'It\'s easy to escape the string delimiter';

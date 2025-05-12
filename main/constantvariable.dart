@@ -1,4 +1,4 @@
-main() {
+void main() {
 
   //Constant variable
 const aConstNum = 100; // Constant integer

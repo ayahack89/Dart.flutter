@@ -1,7 +1,7 @@
 // Dart variable types:
 // int, double, String, bool, dynamic
 
-main() {
+void main() {
   int amount1 = 100;
   var amount2 = 200;
 

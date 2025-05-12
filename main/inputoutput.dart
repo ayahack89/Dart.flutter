@@ -1,5 +1,5 @@
 import 'dart:io';
-main() {
+void main() {
   stdout.write("What is your name?");
   String? name = stdin.readLineSync();
   print("My name is $name");
